@@ -21,14 +21,6 @@ const router = createBrowserRouter([
         path: "/history",
         element: <History />,
       },
-
-      // {
-      //   path: "/order/:orderId",
-      //   element: <Order />,
-      //   loader: orderLoader,
-      //   errorElement: <Error />,
-      //   action: updateOrderAction,
-      // },
     ],
   },
 ]);
